@@ -1,0 +1,20 @@
+.breadcrumb-button {
+  all: unset;
+  font-size: 1.1rem;
+  color: #0890a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  border: 1px solid #0890a8;
+  border-radius: 100%;
+  padding: 4px;
+  background-color: #f4f4f4;
+}

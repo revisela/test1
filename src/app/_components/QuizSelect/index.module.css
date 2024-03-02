@@ -1,0 +1,71 @@
+.card-label h6 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #000;
+}
+.question-type-card {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+.small {
+  padding: 0.4rem 0.8rem;
+}
+.small h5 {
+  font-size: 0.8rem !important;
+}
+.question-type-card h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0 !important;
+}
+.flashcard {
+  background-color: #ffce94;
+}
+.mcq {
+  background-color: #adf5c6;
+}
+.fill-in {
+  background-color: #ffcdfd;
+}
+
+@media screen and (max-width: 992px) {
+  .question-type-card {
+    padding: 0.3rem 0.6rem; 
+    cursor: pointer;
+  }
+  .question-type-card h5 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .question-type-card {
+    padding: 0.3rem 0.6rem; 
+    cursor: pointer;
+  }
+  .question-type-card h5 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .question-type-card {
+    padding: 0.3rem 0.6rem; 
+    cursor: pointer;
+  }
+  .question-type-card h5 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-label h6 {
+    font-size: 1rem;
+  }
+  .question-type-card {
+    padding: 0.3rem 0.6rem; 
+    cursor: pointer;
+  }
+  .question-type-card h5 {
+    font-size: 0.8rem;
+  }
+}

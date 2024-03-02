@@ -1,0 +1,22 @@
+.container {
+  padding: 3% 10%;
+}
+
+.create-btn {
+  border: none;
+  outline: none;
+  background-color: #f4f4f4;
+  color: #0890a8;
+}
+.create-btn:hover,
+.create-btn:active,
+.create-btn:focus-visible {
+  background-color: #f4f4f4 !important;
+  color: #0890a8 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 3% 7%;
+  }
+}

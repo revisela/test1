@@ -1,0 +1,63 @@
+.flashcard-container, .input-container, .fillin-container {
+  padding: 0 2rem;
+}
+
+.question-type-card {
+  position: relative;
+  height: 40px;
+}
+.question-type-card > div {
+  position: absolute;
+  bottom: -1rem;
+}
+.add-option-button {
+  color: #0890a880;
+  font-size: 1rem;
+}
+.option {
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0890a880;
+  padding: 6px;
+}
+
+.option.selected {
+  border: 1px solid #8e8686;
+}
+
+.info-text {
+  font-size: 16px;
+  color: #0890a880;
+}
+
+.error-text {
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .info-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .info-text {
+    font-size: 12px;
+  }
+  .flashcard-container, .input-container, .fillin-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .info-text, .error-text {
+    font-size: 10px;
+  }
+  .flashcard-container, .input-container, .fillin-container {
+    padding: 0 1.2rem;
+  }
+}

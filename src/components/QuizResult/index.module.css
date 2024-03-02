@@ -1,0 +1,10 @@
+.percentage {
+  background-color: #f0f0f0;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+}

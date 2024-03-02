@@ -1,0 +1,79 @@
+.flashcard-container {
+  padding: 0 2rem;
+}
+.flashcard-question,
+.flashcard-answer,
+.mcq-container h4 {
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.flashcard-select-answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.flashcard-select-answer button {
+  all: unset;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+}
+.flashcard-select-answer button.active {
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.mcq-container,
+.fillIn-container {
+  padding: 0 2rem 2rem 2rem;
+}
+.fillIn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.correct-answer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid red;
+}
+.blank-input {
+  max-width: 200px;
+}
+
+.correct {
+  color: #00b81d !important;
+}
+.wrong {
+  color: #f83f33 !important;
+}
+
+
+@media screen and (max-width: 576px) {
+  .blank-input {
+    width: 50%;
+    font-size: 0.8rem;
+  }
+  .fillIn-container,
+  .flashcard-select-answer button,
+  .radio-container {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .blank-input {
+    max-width: 75%;
+    font-size: 0.6rem;
+  }
+  .fillIn-container,
+  .flashcard-select-answer button,
+  .radio-container {
+    font-size: 0.6rem;
+  }
+}

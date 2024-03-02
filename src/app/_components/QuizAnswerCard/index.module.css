@@ -1,0 +1,20 @@
+.quiz-answer-container {
+  background-color: #fff !important;
+  border-radius: 8px;
+}
+.number-count {
+  margin-left: 0.3rem;
+}
+
+.create-btn {
+  border: none;
+  outline: none;
+  background-color: #f4f4f4;
+  color: #0890a8;
+}
+.create-btn:hover,
+.create-btn:active,
+.create-btn:focus-visible {
+  background-color: #f4f4f4 !important;
+  color: #0890a8 !important;
+}
